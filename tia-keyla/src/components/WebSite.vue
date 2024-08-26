@@ -189,7 +189,6 @@
         padding-right: 5%;
       "
       v-for="item in arrPropostas"
-      :key="item"
     >
       <v-icon icon="mdi-arrow-right-bold-circle" color="#f97a08" size="35"/>
       <div
@@ -214,7 +213,6 @@
           Amaral,</span> traçamos um pacto a favor da infância contendo, não limitado, os seguintes tópicos:</p>
         <ul
           v-for="item in arrDecreto"
-          :key="item"
         >
           <li style="color: #0e5ba7">
             {{ item.text }}
@@ -265,7 +263,7 @@
   </section>
   <section>
     <h2 style="font-size: 250%; margin-top: 5%" class="d-flex justify-center align-center">Galeria</h2>
-    <h3>Memórias de momentos inesquecíveis, família e apoiadores da Tia Keyla.</h3>
+    <h3 class="d-flex justify-center align-center">Memórias de momentos inesquecíveis, família e apoiadores da Tia Keyla.</h3>
     <div class="d-flex justify-center align-center flex-column flex-sm-wrap" v-for="i in 12">
       <img :src="`/src/assets/${i}..png`" style="width: 30%; margin-top: 5%;">
     </div>
