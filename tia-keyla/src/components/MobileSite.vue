@@ -3,34 +3,36 @@
     style="
       display: flex;
       align-items: center;
-      gap: 5%;
-      margin-left: 5%;
+      flex-direction: row;
+      justify-content: center;
+      gap: 2%;
       margin-top: 2%;
     "
   >
-    <button><img src="/src/assets/default_icon.png" alt="Logo da Tia Keyla" style="width: 80%; height: 50%;"></button>
-    <a href="#sobre_btn1" style="font-size: 130%"><button class="navbar_btn">Sobre</button></a>
-    <a href="#propostas" style="font-size: 130%"><button class="navbar_btn">Propostas</button></a>
-    <a href="#contatos" style="font-size: 130%"><button class="navbar_btn">Contato</button></a>
+    <button><img src="/src/assets/default_icon.png" alt="Logo da Tia Keyla" style="width: 80%; height: 80%;"></button>
+    <a href="#sobre_btn1"><button class="navbar_btn">Sobre</button></a>
+    <a href="#propostas"><button class="navbar_btn">Propostas</button></a>
+    <a href="#contatos"><button class="navbar_btn">Contato</button></a>
   </nav>
   <section
-    style="display: flex; align-items: center; padding-left: 8%; padding-right: 2%;"
+    style="display: flex; align-items: center !important; flex-direction: column; justify-content: center; margin-top: 5%"
   >
-    <div>
+    <div style="display: flex; flex-direction: column; align-items: center">
       <h1
         style="
           margin-bottom: 1.5%;
           font-weight: bold;
           line-height: 1;
+          text-align: center;
         "
       >Pela Proteção das Crianças e Adolescentes</h1>
-      <a href="https://chat.whatsapp.com/Id7JGzhEKnGA6pbpbSqmu3" target="_blank" style="text-decoration: none">
+      <a href="https://chat.whatsapp.com/Id7JGzhEKnGA6pbpbSqmu3" target="_blank" style="text-decoration: none;">
         <v-card
           color="#f97a08"
           rounded="lg"
           height="7vh"
-          style="text-align: center; align-content: center"
-          width="50%"
+          style="text-align: center; align-content: center; padding: 0 2%; margin-top: 10%"
+          width="100%"
         >
           <h3
             style="background-color: #f97a08; font-weight: bold"
@@ -40,15 +42,15 @@
         </v-card>
       </a>
     </div>
-    <img src="/src/assets/TiaKeyla.png" alt="Imagem de Tia Keyla - Número 22.123" style="height: 100%; width: 60%">
+    <img src="/src/assets/TiaKeyla.png" alt="Imagem de Tia Keyla - Número 22.123" style="height: 100%; width: 60%; margin-top: 8%">
   </section>
   <v-card
     color="#f97a08"
     width="100%"
     height="12vh"
     style="
-      padding-right: 30%;
-      padding-left: 30%;
+      padding-right: 5%;
+      padding-left: 5%;
       text-align: center;
       align-content: center;
       margin-bottom: 1%;
@@ -58,7 +60,7 @@
       Para que todos vejam, e saibam, e considerem, e juntamente entendam que a mão do Senhor fez isto (Isaías 41:20)
     </h3>
   </v-card>
-  <div style="text-align: center; align-content: center; padding-right: 5%; padding-left: 5%; margin-top: 5%" id="sobre_btn1">
+  <div style="text-align: center; align-content: center; margin-top: 5%" id="sobre_btn1">
     <h1
       style="
           margin-bottom: 5%;
@@ -66,7 +68,7 @@
           line-height: 1;
         "
     >Uma História de Superação e Dedicação</h1>
-    <p style="text-align: justify">
+    <p style="text-align: justify; padding: 0 5%">
       Sou Keyla Cristina,  esposa do Daniel e mãe do David e do Danilo, mas todos me conhecem como tia Keyla.
       Sou pedagoga, especialista em educação emocional e sexual. Durante a minha infância, vivi um episódio de abuso que
       marcou profundamente a minha vida. Esse trauma me inspirou a dedicar minha trajetória à prevenção de abusos e à
@@ -75,23 +77,24 @@
       seguros e amorosos para todas as crianças e a aplicação de oficinas lúdicas para que as crianças e adolescentes
       saibam se proteger do abuso sexual ou qualquer outro tipo de  violência.
     </p>
-    <div style="margin-top: 5%; margin-bottom: 10%;" class="d-flex justify-space-around">
-      <a href="https://youtu.be/30jKGtOvJBM" class="d-flex flex-column align-center"><img src="/src/assets/video1.png" style="width: 150%; height: 150%">Vídeo de depoimento 1</a>
-      <a href="https://youtu.be/nyAbqnLWEYU" class="d-flex flex-column align-center"><img src="/src/assets/video2.png" style="width: 150%; height: 150%">Vídeo de depoimento 2</a>
-      <a href="https://youtu.be/M76HV_KIJMw" class="d-flex flex-column align-center"><img src="/src/assets/video3.png" style="width: 150%; height: 150%">Vídeo de depoimento 3</a>
+    <div style="margin-top: 5%; margin-bottom: 10%" class="d-flex flex-column justify-content-between">
+      <a href="https://youtu.be/30jKGtOvJBM" class="d-flex flex-column align-center"><img src="/src/assets/video1.png" style="width: 50%; height: 50%">Vídeo de depoimento 1</a>
+      <a href="https://youtu.be/nyAbqnLWEYU" class="d-flex flex-column align-center"><img src="/src/assets/video2.png" style="width: 50%; height: 50%">Vídeo de depoimento 2</a>
+      <a href="https://youtu.be/M76HV_KIJMw" class="d-flex flex-column align-center"><img src="/src/assets/video3.png" style="width: 50%; height: 50%">Vídeo de depoimento 3</a>
     </div>
   </div>
   <div
-    style="padding-left: 15%; padding-right: 15%;"
+    style="padding: 0 2%"
   >
     <p
       style="
         font-size: 150%;
-        padding: 2% 4%;
+        padding: 2% 3.5%;
         border-top: #f97a08 solid 0.7rem;
         border-bottom: #f97a08 solid 0.7rem;
         border-left: #fc9028 solid 0.7rem;
-        border-right: #fc9028 solid 0.7rem
+        border-right: #fc9028 solid 0.7rem;
+        text-align: justify;
         "
     >
       “Eleger-me é escolher uma vereadora comprometida com a proteção das crianças e adolescentes de Contagem.
@@ -99,24 +102,24 @@
       Juntos, podemos construir uma cidade onde as crianças sejam verdadeiramente valorizadas e protegidas.”
     </p>
   </div>
-  <div style="margin-top: 5%; margin-left: 5%;">
+  <div style="margin-top: 5%; padding-left: 3%">
     <h2
       style="font-size: 300%; font-weight: bold"
     >
       Você sabia?
     </h2>
-    <div style="display: flex; align-items: center; gap: 1%; margin-top: 2%; padding-right: 10%;">
-      <img src="/src/assets/62porcent.png" alt="Círculo 62% completo" style="width: 10%; height: 40%"/>
-      <p style="font-size: 130%">
+    <div style="display: flex; align-items: center; flex-direction: column; gap: 1%; margin-top: 2%; padding-right: 10%;">
+      <img src="/src/assets/62porcent.png" alt="Círculo 62% completo" style="width: 20%; height: 40%"/>
+      <p>
         No Brasil, uma pessoa é <span class="span_strong">vítima</span> de abuso sexual
         <span class="span_strong">a cada 6 minutos</span>, refletindo uma realidade alarmante.
         Dentre essas vítimas, <span class="span_strong">62% têm até 13 anos</span>,
         evidenciando a gravidade da situação entre as crianças e adolescentes.
       </p>
     </div>
-    <div style="display: flex; align-items: center; gap: 1%; margin-top: 2%; padding-right: 10%;">
-      <img src="/src/assets/6.5percent.png" alt="Círculo 62% completo" style="width: 13%; height: 60%"/>
-      <p style="font-size: 130%">
+    <div style="display: flex; align-items: center; flex-direction: column; gap: 1%; margin-top: 2%; padding-right: 10%;">
+      <img src="/src/assets/6.5percent.png" alt="Círculo 62% completo" style="width: 20%; height: 40%"/>
+      <p>
         Em 2023, foram registradas aproximadamente
         <span class="span_strong">84 mil ocorrências de abuso sexual infantil</span>, o que representa um
         <span class="span_strong">aumento de 6,5%</span> em comparação com o ano anterior, 2022.
@@ -125,13 +128,13 @@
       </p>
     </div>
   </div>
-  <div class="d-flex align-center justify-center flex flex-column" style="margin-top: 2%">
+  <div class="d-flex align-center justify-center flex flex-column" style="margin-top: 3%">
     <v-card
       color="#f97a08"
       rounded="lg"
-      height="5vh"
-      style="text-align: center; align-content: center; margin-bottom: 5%"
-      width="38%"
+      height="19vh"
+      style="text-align: center; align-content: center; margin-bottom: 5%; padding: 0 2%"
+      width="60%"
     >
       <h3
         style="background-color: #f97a08; color: #ffffff; font-size: 120%"
@@ -142,7 +145,7 @@
     <v-card
       color="#0E5BA7"
       rounded="lg"
-      height="28vh"
+      height="48vh"
       style="text-align: center; align-content: center; "
       width="70%"
     >
@@ -156,19 +159,20 @@
     </v-card>
   </div>
   <section
-    class="d-flex  justify-center align-center"
+    class="d-flex justify-center align-center"
+    style="margin-top: 3%"
   >
     <img src="/src/assets/TiaKeylaAside.png"
          alt="Imagem de Tia Keyla de braços cruzados"
          style="
-          height: 100%;
-          width: 25%;
+          height: 80%;
+          width: 40%;
         "
     >
     <img src="/src/assets/text.png"
-     alt="Texto: Com a ajuda de Deus e o seu apoio, trabalharei incansavelmente para diminuir tais incidências
+         alt="Texto: Com a ajuda de Deus e o seu apoio, trabalharei incansavelmente para diminuir tais incidências
      em nossa Cidade, contribuindo efetivamente para a diminuição desta estatística no Brasil."
-    style="
+         style="
       height: 70%;
       width: 50%;
     "
@@ -201,14 +205,15 @@
   </section>
   <section style="margin-top: 2%;">
     <h2 style="font-size: 300%; font-weight: bold; padding-left: 2%">Decreto Infância Protegida</h2>
-    <div class="d-flex justify-sm-space-around align-center" style="margin-top: 2%; margin-left: 5%">
+    <div class="d-flex flex-column justify-center align-center" style="margin-top: 2%; margin-left: 5%">
       <img src="/src/assets/TiaKeylaEJunio.png"
            alt="Tia Keyla para vereadora (22.123) Junio Amaral para prefeito (22)"
-           style="height: 20%;
-                  width: 30%;
+           style="height: 50%;
+                  width: 60%;;
+                  margin-bottom: 2%;
            "
       >
-      <div style="padding-left: 10%; padding-right: 15%; text-justify: inter-word">
+      <div style="padding-left: 5%; padding-right: 5%; text-justify: inter-word">
         <p>Em parceria e compromisso firmados com nosso <span class="span_strong">candidato a prefeitura de Contagem, Cabo Junio
           Amaral,</span> traçamos um pacto a favor da infância contendo, não limitado, os seguintes tópicos:</p>
         <ul
@@ -221,15 +226,15 @@
       </div>
     </div>
   </section>
-  <section class="d-flex justify-center flex-column align-center" style="margin-top: 8%">
-    <h2 style="font-size: 280%; font-weight: bold; color: #f97a08; line-height: 1">Passeata Maio Laranja 2024</h2>
-    <h3 style="font-size: 170%; color: #f97a08">Conheça o Projeto #Protegidos - Clique aqui</h3>
+  <section class="d-flex justify-center flex-column align-center" style="margin-top: 5%">
+    <h2 style="font-size: 280%; font-weight: bold; color: #f97a08; line-height: 1; text-align: center">Passeata Maio Laranja 2024</h2>
+    <h3 style="font-size: 170%; color: #f97a08; text-align: center">Conheça o Projeto #Protegidos - Clique aqui</h3>
     <a href="https://www.youtube.com/watch?v=8EH2dck9Tdo" target="_blank">
       <img src="/src/assets/video_protegidos.png"
-           style="width: 30vw; height: 40vh; margin-top: 2%;"
+           style="width: 60vw; height: 30vh; margin-top: 2%;"
       >
     </a>
-    <p style="color: #f97a08; padding: 2% 10%; font-size: 130%">
+    <p style="color: #f97a08; padding-top: 2%; padding-left: 10%; padding-right: 10%">
       A  Passeata Maio Laranja, realizada em 11 de maio de 2024 na cidade de Contagem, foi um marco de solidariedade e
       esperança na luta contra o abuso sexual infantil e de adolescentes. Centenas de pessoas se uniram, formando uma
       corrente de coragem e determinação, ecoando vozes que há muito tempo precisam ser ouvidas. As ruas se encheram de
@@ -256,43 +261,45 @@
     </a>
   </section>
   <section>
-    <h2 style="font-size: 300%; margin-top: 5%; font-weight: bold" class="d-flex justify-center align-center">Depoimentos</h2>
+    <h2 style="font-size: 250%; margin-top: 5%" class="d-flex justify-center align-center">Depoimentos</h2>
     <div class="d-flex justify-center align-center flex-column flex-sm-wrap">
-      <img :src="`/src/assets/depoimento1.png`" style="width: 30%; margin-top: 5%;">
-      <img :src="`/src/assets/depoimento2.png`" style="width: 30%; margin-top: 5%;">
-      <img :src="`/src/assets/depoimento3.png`" style="width: 30%; margin-top: 5%;">
-      <img :src="`/src/assets/depoimento4.png`" style="width: 30%; margin-top: 5%;">
+      <img :src="`/src/assets/depoimento1.png`" style="width: 68%; margin-top: 5%;">
+      <img :src="`/src/assets/depoimento2.png`" style="width: 68%; margin-top: 5%;">
+      <img :src="`/src/assets/depoimento3.png`" style="width: 68%; margin-top: 5%;">
+      <img :src="`/src/assets/depoimento4.png`" style="width: 68%; margin-top: 5%;">
     </div>
   </section>
   <section>
-    <h2 style="font-size: 300%; margin-top: 5%; font-weight: bold" class="d-flex justify-center align-center">Galeria</h2>
-    <h3 class="d-flex justify-center align-center" style="font-size: 120%">Memórias de momentos inesquecíveis, família e apoiadores da Tia Keyla.</h3>
+    <h2 style="font-size: 250%; margin-top: 5%" class="d-flex justify-center align-center">Galeria</h2>
+    <h3 class="d-flex justify-center align-center" style="text-align: center">
+      Memórias de momentos inesquecíveis, família e apoiadores da Tia Keyla.
+    </h3>
     <div class="d-flex justify-center align-center flex-column flex-sm-wrap">
-      <img :src="`/src/assets/galeria1.png`" style="width: 30%; margin-top: 5%;">
-      <img :src="`/src/assets/galeria2.png`" style="width: 30%; margin-top: 5%;">
-      <img :src="`/src/assets/galeria3.png`" style="width: 30%; margin-top: 5%;">
-      <img :src="`/src/assets/galeria4.png`" style="width: 30%; margin-top: 5%;">
-      <img :src="`/src/assets/galeria5.png`" style="width: 30%; margin-top: 5%;">
-      <img :src="`/src/assets/galeria6.png`" style="width: 30%; margin-top: 5%;">
-      <img :src="`/src/assets/galeria7.png`" style="width: 30%; margin-top: 5%;">
-      <img :src="`/src/assets/galeria8.png`" style="width: 30%; margin-top: 5%;">
-      <img :src="`/src/assets/galeria9.png`" style="width: 30%; margin-top: 5%;">
-      <img :src="`/src/assets/galeria10.png`" style="width: 30%; margin-top: 5%;">
-      <img :src="`/src/assets/galeria11.png`" style="width: 30%; margin-top: 5%;">
-      <img :src="`/src/assets/galeria12.png`" style="width: 30%; margin-top: 5%;">
+      <img :src="`/src/assets/galeria1.png`" style="width: 68%; margin-top: 5%;">
+      <img :src="`/src/assets/galeria2.png`" style="width: 68%; margin-top: 5%;">
+      <img :src="`/src/assets/galeria3.png`" style="width: 68%; margin-top: 5%;">
+      <img :src="`/src/assets/galeria4.png`" style="width: 68%; margin-top: 5%;">
+      <img :src="`/src/assets/galeria5.png`" style="width: 68%; margin-top: 5%;">
+      <img :src="`/src/assets/galeria6.png`" style="width: 68%; margin-top: 5%;">
+      <img :src="`/src/assets/galeria7.png`" style="width: 68%; margin-top: 5%;">
+      <img :src="`/src/assets/galeria8.png`" style="width: 68%; margin-top: 5%;">
+      <img :src="`/src/assets/galeria9.png`" style="width: 68%; margin-top: 5%;">
+      <img :src="`/src/assets/galeria10.png`" style="width: 68%; margin-top: 5%;">
+      <img :src="`/src/assets/galeria11.png`" style="width: 68%; margin-top: 5%;">
+      <img :src="`/src/assets/galeria12.png`" style="width: 68%; margin-top: 5%;">
     </div>
   </section>
-  <footer class="d-flex align-center justify-space-around" style="padding: 0 5%; margin-top: 5%;" id="contatos">
-    <div style="width: 30%">
+  <footer class="d-flex align-center flex-column" style="padding: 0 5%; margin-top: 8%;" id="contatos">
+    <div>
       <h2 style="font-size: 250%; font-weight: bold">Entre em contato</h2>
       <a href="https://chat.whatsapp.com/Id7JGzhEKnGA6pbpbSqmu3" style="text-decoration: none">
-        <section style="margin-top: 8%; display: flex; align-items: flex-start; justify-content: space-between">
+        <section style="margin-top: 8%; display: flex; align-items: center; justify-content: space-between; margin-bottom: 8%">
           <p style="font-weight: bold">GRUPO EXÉRCITO DA PREVENÇÃO</p>
           <img src="/src/assets/whatsapp.png" alt="Icone do whatsapp">
         </section>
       </a>
       <a href="https://www.instagram.com/tiakeyla" style="text-decoration: none">
-        <section style="margin-top: 5%; display: flex; align-items: flex-start; justify-content: space-between">
+        <section style="margin-top: 5%; display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 8%">
           <div>
             <p style="font-weight: bold">INSTAGRAM</p>
             <p>@tiakeyla</p>
@@ -301,7 +308,7 @@
         </section>
       </a>
       <a href="mailto:contato@tiakeylacontagem.com.br" style="text-decoration: none">
-        <section style="margin-top: 5%; display: flex; align-items: flex-start; justify-content: space-between">
+        <section style="margin-top: 5%; display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 8%">
           <div>
             <p style="font-weight: bold">E-MAIL</p>
             <p>contato@tiakeylacontagem.com.br</p>
@@ -309,7 +316,7 @@
           <img src="/src/assets/mail.png" alt="Icone de e-mail">
         </section>
       </a>
-      <section style="margin-top: 5%; display: flex; align-items: flex-start; justify-content: space-between">
+      <section style="margin-top: 5%; display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 8%">
         <div>
           <p>Propaganda Eleitoral</p>
           <p>CNPJ 56.483.833/0001-05</p>
@@ -320,7 +327,7 @@
         </div>
       </section>
     </div>
-    <div>
+    <div style="margin-bottom: 0; padding-bottom: 0">
       <img src="/src/assets/TiaKeylaFooter.png" alt="Imagem de Tia Keyla de braços cruzados" style="width: 100%; height: 100%">
     </div>
   </footer>
@@ -330,7 +337,7 @@
 import {defineComponent} from 'vue';
 
 export default defineComponent({
-  name: "WebSite",
+  name: "MobileSite",
   data() {
     return {
       arrPropostas: [
@@ -411,22 +418,22 @@ export default defineComponent({
 
 
 <style scoped>
-  * {
-    margin: 0;
-    padding: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    box-sizing: border-box;
-    color: #0e5ba7;
-  }
-  h1 {
-    font-size: 300%;
-  }
-  .navbar_btn {
-    font-size: 100%
-  }
-  .span_strong {
-    font-weight: bold;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  color: #0e5ba7;
+}
+h1 {
+  font-size: 300%;
+}
+.navbar_btn {
+  font-size: 100%
+}
+.span_strong {
+  font-weight: bold;
+}
 </style>

@@ -7,6 +7,7 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    MobileSite: typeof import('./src/components/MobileSite.vue')['default']
     WebSite: typeof import('./src/components/WebSite.vue')['default']
   }
 }

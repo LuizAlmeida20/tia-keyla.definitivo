@@ -1,20 +1,23 @@
 <template>
   <v-app>
-    <web-site />
+    <web-site v-if="windowWidth > 835"/>
+    <MobileSite v-if="windowWidth < 835"/>
   </v-app>
 </template>
 
 <script lang="ts">
   import WebSite from "@/components/WebSite.vue";
+  import MobileSite from "@/components/MobileSite.vue";
 
   export default {
     data() {
       return {
-
+        windowWidth: window.innerWidth as number
       }
     },
     components: {
-      WebSite
+      WebSite,
+      MobileSite
     }
   }
 </script>
